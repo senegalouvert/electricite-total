@@ -1,0 +1,49 @@
+{
+  "title": "Electricité total",
+  "name": "electricite-total",
+  "sources": [{
+        "name": "UN Data",
+        "web": "http://data.un.org/Data.aspx?q=senegal&d=EDATA&f=cmID%3aEL%3bcrID%3a686"
+    }],
+  "contributors":[ {
+      "name": "Ibrahima SENE",
+      "email": "seneibrahima@gmail.com"
+  }],
+  "licenses": [
+      {
+          "id": "odc-pddl",
+          "name": "Public Domain Dedication and License",
+          "version": "1.0",
+          "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+      }
+  ],
+  "resources": [
+    {
+      "name": "deces-dus-au-sida.csv",
+      "path": "data/deces-dus-au-sida.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 655,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country or Area",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          },
+          {
+            "name": "Value Footnotes",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
