@@ -19,11 +19,11 @@
   ],
   "resources": [
     {
-      "name": "deces-dus-au-sida.csv",
-      "path": "data/deces-dus-au-sida.csv",
-      "format": "csv",
+      "name": "electricite-total.csv",
+      "path": "data/electricite-total.csv",
       "mediatype": "text/csv",
-      "bytes": 655,
+      "format": "csv",
+      "bytes": 44234,
       "schema": {
         "fields": [
           {
@@ -31,15 +31,23 @@
             "type": "string"
           },
           {
+            "name": "Commodity - Transaction",
+            "type": "string"
+          },
+          {
             "name": "Year",
             "type": "integer"
           },
           {
-            "name": "Value",
+            "name": "Unit",
+            "type": "string"
+          },
+          {
+            "name": "Quantity",
             "type": "integer"
           },
           {
-            "name": "Value Footnotes",
+            "name": "Quantity Footnotes",
             "type": "number"
           }
         ]
